@@ -10,3 +10,7 @@ Caso esteja adicionando um arquivo ao invés de alterando algum já existente no
 Arquivos:
 
  - metadate_cleaned.csv é o banco de dados após a limpeza e numerização feita pelo Pedro. Este dataset será utilizado como base para os próximos particionamentos e alterações no banco de dados. Será utilizado para a realização de testes do Pedro e da Natália para as apresentações a partir do dia 19.
+ 
+ - metadata_option1.csv corresponde ao banco de dados acordado para análise na reunião sobre tratamento de dados, no qual foi feita a eliminação de todas as instâncias com NaN na coluna 'intubated', que apresenta o menor número razoável para utilização dos dados clínicos em um modelo de predição. Esse dataset é para os testes iniciais do Alberto e do Gabriel.
+
+ - metadata_option2.csv é uma segunda alternativa para os dados clínicos. Foram removidas todas as instâncias com dados faltantes na coluna 'intubated' e após isso foram removidas todas as instâncias com dados faltantes na coluna 'in_icu'. Esse dataset é para os testes iniciais do Alberto e do Gabriel.
