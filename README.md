@@ -43,3 +43,5 @@ Axial ou Coronal para tomografias computadorizadas. Traduções: Notaufnahme> Su
  - **metadata_option1.csv** corresponde ao banco de dados acordado para análise na reunião sobre tratamento de dados, no qual foi feita a eliminação de todas as instâncias com NaN na coluna 'intubated', que apresenta o menor número razoável para utilização dos dados clínicos em um modelo de predição. Esse dataset é para os testes iniciais do Alberto e do Gabriel.
 
  - **metadata_option2.csv** é uma segunda alternativa para os dados clínicos. Foram removidas todas as instâncias com dados faltantes na coluna 'intubated' e após isso foram removidas todas as instâncias com dados faltantes na coluna 'in_icu'. Esse dataset é para os testes iniciais do Alberto e do Gabriel.
+ 
+ - **metadata_option3.csv** é a mesma base de dados option2 com 196 instâncias, porém foram utilizadas técnicas de inputação para mitigar os dados faltantes nas features que serão utilizadas nos testes iniciais
